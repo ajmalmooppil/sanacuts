@@ -15,7 +15,7 @@ header {
   display: flex; /* Add flexbox to header */
   align-items: center; /* Align items vertically in the center */
   justify-content: space-between;
-  width: 100%;
+  width: auto;
 }
 header img {
   width: 100px;
