@@ -128,8 +128,8 @@ header img {
 
 header h1 {
   flex: 1;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: start;
   color: orange;
 }
@@ -138,7 +138,7 @@ nav ul {
   list-style: none;
 }
 
-nav ul li {
+nav {
   display: inline;
   margin-right: 20px;
 }
@@ -159,7 +159,7 @@ section {
 }
 
 section h1 {
-  font-size: 6cap;
+  font-size: 6ch;
   margin-bottom: 20px;
   color: aqua;
 }
@@ -172,7 +172,9 @@ section h2 {
 
 section p {
   font-size: 30px;
-  line-height: 1.6;
+
+  margin-right: 0;
+  text-align: center;
   color: palevioletred;
 }
 
