@@ -1,5 +1,4 @@
 /* Global Styles */
-<<<<<<< HEAD
 * {
   padding: 0;
   box-sizing: border-box;
@@ -8,20 +7,9 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  line-height: 1.6;
-=======
-*{
-  padding:0;
-  box-sizing: border-box;
-  margin:0;
-}
-
-body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  line-height:1.6;
->>>>>>> 7802c8bbbfa5ea1b20f9024e680907e99b5fd816
+  line-height: 1.5;
   background-color: black;
+  position: absolute;
 }
 
 header {
@@ -32,23 +20,7 @@ header {
   display: flex; /* Add flexbox to header */
   align-items: center; /* Align items vertically in the center */
   justify-content: space-between;
-  width: auto;
-}
-@media only screen and (max-width: 600px) {
-  body {
-    max-width: 100%;
-    margin: 0;
-  }
-  header,
-  footer {
-    font-size: 14px;
-    padding: 0;
-    width: 150%;
-    margin: auto;
-  }
-  .intro-class {
-    align-items: center;
-  }
+  width: 100%;
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -74,6 +46,9 @@ header img {
 .whatsapp-icon {
   display: none; /* Hide the WhatsApp icon by default on larger screens */
 }
+.whatsapp-text {
+  display: none;
+}
 
 @media (max-width: 768px) {
   /* Show WhatsApp icon only on smaller screens */
@@ -81,87 +56,39 @@ header img {
     background-color: #25d366; /* Set background color to WhatsApp color */
     background-image: url("images/whatsapp.png"); /* Set WhatsApp icon image */
     background-size: contain; /* Ensure the icon fits within the container */
-    width: 60px; /* Set the width of the icon */
-    height: 60px; /* Set the height of the icon */
+    width: 40px; /* Set the width of the icon */
+    height: 40px; /* Set the height of the icon */
     display: inline-block; /* Ensure proper alignment */
     border-radius: 50%; /* Round the corners to create a circle */
     margin-left: 5px;
     margin-right: 5px;
-<<<<<<< HEAD
-=======
+    bottom: 25px;
   }
-}
-.topnav {
-  overflow: hidden;
-  padding: 35px;
-  background-color: black;
-  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.bar-icon {
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.bar {
-  width: 100%;
-  height: 3px;
-  background-color: #fff;
-}
-
-@media screen and (max-width: 601px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
+  .whatsapp-text {
+    display: inline-block;
     position: absolute;
+    bottom: 30px;
+    left: 0;
     right: 0;
-    top: 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-@media screen and (min-width: 601px) {
-  .topnav a:not(:last-child) {
-    display: block;
->>>>>>> 7802c8bbbfa5ea1b20f9024e680907e99b5fd816
+  .topnav {
+    position: relative;
+    padding: 20px;
+    height: inherit;
+    width: fit-content;
   }
 }
 .topnav {
   overflow: hidden;
-  padding: 35px;
+  padding: 30px;
   background-color: black;
   box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+  display: block;
+  border-width: 30px;
+  border-right: 60px;
 }
 
 .topnav a {
@@ -225,35 +152,22 @@ header img {
 
 header h1 {
   flex: 1;
-<<<<<<< HEAD
-  -ms-flex-direction: column;
-  flex-direction: column;
-=======
   -ms-flex-direction: row;
   flex-direction: row;
->>>>>>> 7802c8bbbfa5ea1b20f9024e680907e99b5fd816
   text-align: start;
   color: orange;
 }
 
-<<<<<<< HEAD
 nav ul {
   list-style: none;
 }
 
-nav {
+nav ul li {
   display: inline;
   margin-right: 20px;
 }
 
 nav a {
-=======
-
-
-
-
-nav  a {
->>>>>>> 7802c8bbbfa5ea1b20f9024e680907e99b5fd816
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -269,32 +183,20 @@ section {
 }
 
 section h1 {
-<<<<<<< HEAD
-  font-size: 6ch;
-  margin-bottom: 20px;
-  color: aqua;
-=======
   font-size: 6cap;
   margin-bottom: 20px;
-  color:aqua;
->>>>>>> 7802c8bbbfa5ea1b20f9024e680907e99b5fd816
+  color: aqua;
 }
 
 section h2 {
   font-size: 8cap;
   margin-bottom: 20px;
-<<<<<<< HEAD
   color: greenyellow;
-=======
-  color:aqua;
->>>>>>> 7802c8bbbfa5ea1b20f9024e680907e99b5fd816
 }
 
 section p {
   font-size: 30px;
-
-  margin-right: 0;
-  text-align: center;
+  line-height: 1.6;
   color: palevioletred;
 }
 
@@ -617,6 +519,17 @@ section img {
   ); /* Calculate width to leave a gap of 20px between elements */
   margin-right: 20px; /* Add some space between elements */
   margin-bottom: 20px; /* Add some space below elements */
+}
+.container1 .location {
+  color: floralwhite;
+  position: static;
+  width: max-content;
+  height: max-content;
+  font: 1em sans-serif;
+  font-size: 40px;
+  padding: 45px;
+  right: 0;
+  left: 0;
 }
 
 /* Responsive styles */
