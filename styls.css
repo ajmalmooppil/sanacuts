@@ -50,7 +50,7 @@ header img {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   /* Show WhatsApp icon only on smaller screens */
   .whatsapp-icon {
     background-color: #25d366; /* Set background color to WhatsApp color */
