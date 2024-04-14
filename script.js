@@ -69,3 +69,40 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+$(document).ready(function () {
+  // Create XML document
+  var xmlDoc = document.implementation.createDocument(null, "root");
+
+  // Create elements and append them
+  var servicesSection = xmlDoc.createElement("services");
+  var service1 = xmlDoc.createElement("service");
+  var serviceName1 = xmlDoc.createElement("name");
+  serviceName1.textContent = "Concrete Cutting";
+  var serviceDesc1 = xmlDoc.createElement("description");
+  serviceDesc1.textContent =
+    "Concrete cutting involves precise openings and incisions in concrete structures. We use advanced techniques and equipment for accurate results.";
+
+  service1.appendChild(serviceName1);
+  service1.appendChild(serviceDesc1);
+  servicesSection.appendChild(service1);
+
+  var service2 = xmlDoc.createElement("service");
+  var serviceName2 = xmlDoc.createElement("name");
+  serviceName2.textContent = "Core Drilling";
+  var serviceDesc2 = xmlDoc.createElement("description");
+  serviceDesc2.textContent =
+    "Core drilling creates perfectly round holes in concrete surfaces for various applications such as plumbing, electrical, and HVAC installations.";
+
+  service2.appendChild(serviceName2);
+  service2.appendChild(serviceDesc2);
+  servicesSection.appendChild(service2);
+
+  xmlDoc.documentElement.appendChild(servicesSection);
+
+  // Convert XML to string
+  var serializer = new XMLSerializer();
+  var xmlString = serializer.serializeToString(xmlDoc);
+
+  // Output XML string
+  console.log(xmlString);
+});
