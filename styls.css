@@ -66,8 +66,9 @@ header img {
   }
   .whatsapp-text {
     display: inline-block;
-    position: absolute;
-    bottom: 10px;
+    margin-left: 5px;
+    margin-right:5px;
+    bottom: 30px;
     left: 0;
     right: 0;
     text-align: right;
