@@ -59,7 +59,7 @@ header img {
     width: 40px; /* Set the width of the icon */
     height: 40px; /* Set the height of the icon */
     display: block;
-    position/* Ensure proper alignment */
+    /* Ensure proper alignment */
     border-radius: 50%; /* Round the corners to create a circle */
     margin-left: 5px;
     margin-right: 5px;
