@@ -66,13 +66,11 @@ header img {
     bottom: 25px;
   }
   .whatsapp-text {
-    display: inline-block;
-    margin-left: 5px;
-    margin-right:5px;
-    top:25px;
+    display: block;
+    padding-top:30px;
     bottom: 45px;
     position:relative;
-    text-align: right;
+    text-align: center;
     font-size: 15px;
     color: white;
   }
