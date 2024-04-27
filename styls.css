@@ -61,14 +61,15 @@ header img {
     display: block;
     position:reletive;
     border-radius: 50%; /* Round the corners to create a circle */
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
     bottom: 25px;
   }
   .whatsapp-text {
     display: inline-block;
     margin-left: 5px;
     margin-right:5px;
+    top:25px;
     bottom: 45px;
     position:relative;
     text-align: right;
