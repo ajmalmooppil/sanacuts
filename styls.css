@@ -50,7 +50,7 @@ header img {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   /* Show WhatsApp icon only on smaller screens */
   .whatsapp-icon {
     background-color: #25d366; /* Set background color to WhatsApp color */
@@ -58,19 +58,19 @@ header img {
     background-size: contain; /* Ensure the icon fits within the container */
     width: 40px; /* Set the width of the icon */
     height: 40px; /* Set the height of the icon */
-    display: block;
-    position:reletive;
+    display: inline-block;
     border-radius: 50%; /* Round the corners to create a circle */
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     bottom: 25px;
   }
   .whatsapp-text {
-    display: block;
-    padding-top:30px;
-    bottom: 45px;
-    text-decoration:non;
-    position:relative;
+    display: inline-block;
+    bottom: 30px;
+    left:0;
+    right:0;
+    text-decoration: none;
+    position:absolute;
     text-align: center;
     font-size: 15px;
     color: white;
