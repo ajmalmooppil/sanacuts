@@ -106,3 +106,4 @@ $(document).ready(function () {
   // Output XML string
   console.log(xmlString);
 });
+

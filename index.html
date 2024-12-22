@@ -1,235 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/S.png" type="image/x-icon" />
-    <link rel="Stylesheet" href="styls.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
 
-    <title>Concrete Cutting</title>
-  </head>
-  <body>
-    <header>
-      <img src="images/S.png" alt="Logo" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Looking for reliable concrete cutting services in Wayanad? Our experienced team offers precise and efficient concrete cutting solutions for residential and commercial projects. Contact us today for a free quote.">
+  <meta name="keywords" content="concrete cutting, concrete cutting services, Wayanad, concrete contractors, concrete sawing, concrete drilling, concrete cutting company, concrete cutting solutions, concrete cutting experts, concrete cutting contractors">
+  <meta property="og:title" content="Concrete Cutting Services in Wayanad | Professional Concrete Solutions">
+  <meta property="og:description" content="Looking for reliable concrete cutting services in Wayanad? Our experienced team offers precise and efficient concrete cutting solutions for residential and commercial projects.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:url" content="https://www.sanacut.in/concrete-cutting-wayanad">
+  
 
-      <h1>Sana Concrete Cut</h1>
-      <nav class="topnav" id="myTopnav">
-        <a href="#">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#service">Services</a>
-        <a href="#about us">About Us</a>
-        <a href="https://wa.me/919656556796" target="_blank" rel="noreferrer">
-          <div class="whatsapp-icon"></div>
-          <span class="whatsapp-text">WhatsApp</span>
-        </a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <div class="bar-icon">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+  <link rel="shortcut icon" href="images/S.png" type="image/x-icon" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <style>
+    /* Custom Logo Styling */
+    .navbar-brand img {
+    height: 40px;
+    width: auto;
+  }
+
+  /* Adjust Navbar on Mobile */
+  .navbar-nav {
+    flex-direction: row; /* Ensure items are horizontally aligned */
+  }
+
+  /* Navbar Background on Mobile */
+  @media (max-width: 768px) {
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+    .navbar-toggler {
+      position: absolute;
+      right: 15px; /* Adjust to position the button on the right */
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .navbar-collapse {
+      display: block !important; /* Force the collapse to behave */
+    }
+  }
+
+  /* Add margin to body to avoid content overlap */
+  body {
+    margin-top: 70px; /* Adjust this value based on navbar height */
+  }
+  </style> -->
+
+
+
+  <title>Concrete Cutting Services in Wayanad | Professional Concrete Solutions</title>
+
+</head>
+
+<body>
+  <!-- Header with Bootstrap and animations -->
+  <header class="container-fluid fadeIn">
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-0 fixed-top">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <!-- Logo and Brand -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/S.png" alt="Logo"  />
+          </a>
+      
+          <!-- Toggle Button for Mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Collapsible Navigation Links -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about-section">About Us</a>
+              </li>
+            </ul>
           </div>
-        </a>
+        </div>
       </nav>
-    </header>
+      
+    </div>
+  </header>
+  
 
-    <div id="intro">
-      <section class="intro-class">
-        <h1>Welcome to our website</h1>
-        <p>
-          We specialize in concrete cutting, a precise and essential process in
-          construction and renovation projects. Concrete cutting involves the
-          use of advanced techniques and equipment to create precise openings
-          and incisions in concrete structures.
-        </p>
-        <p>
-          Using diamond-tipped blades and specialized sawing equipment, we can
-          cut through tough materials like concrete with accuracy and
-          efficiency. Whether you need openings for doors, windows, ducts, or
-          vents, or require modifications to existing concrete structures, our
-          concrete cutting services are tailored to meet your specific needs.
-        </p>
-        <p>
-          Our team of skilled professionals is trained to handle various
-          concrete cutting techniques, including diamond sawing, core drilling,
-          wall sawing, and wire sawing. We adhere to strict safety standards and
-          regulations to ensure the safety of our workers and the success of
-          your project.
-        </p>
-        <p>
-          With our expertise in concrete cutting and dedication to quality
-          craftsmanship, we strive to deliver superior results that exceed your
-          expectations. Contact us today to learn more about how we can assist
-          you with your concrete cutting needs.
-        </p>
-      </section>
+
+ <!-- Introduction Section -->
+<section id="intro" class="text-center bg-light mt-5 p-5" data-aos="slide-right">
+  <div class="container">
+    <h1 class="display-4">Welcome to Sana Concrete Cutting</h1>
+    <p class="lead">
+      Your trusted partner for all concrete cutting needs. We use cutting-edge technology and expert techniques to deliver superior results for residential, commercial, and industrial projects.
+    </p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container my-5">
+  <h2 class="text-center mb-5">Our Services</h2>
+
+  <!-- Service Row 1 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6" data-aos="fade-right">
+      <img src="images/images.jpeg" alt="Concrete Cutting" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <h3>Concrete Cutting</h3>
+      <p>Concrete cutting is a precise process that involves creating clean, accurate openings in concrete. We use diamond blades for maximum efficiency and minimal damage to surrounding materials, making it ideal for renovations, repairs, and new constructions.</p>
+    </div>
+  </div>
+
+  <!-- Service Row 2 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6 order-md-2" data-aos="fade-left">
+      <img src="images/core.jpg" alt="Core Drilling" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6 order-md-1" data-aos="fade-right">
+      <h3>Core Drilling</h3>
+      <p>Our core drilling services create precise circular holes in concrete for plumbing, electrical work, or HVAC installations. We ensure high precision with minimal mess.</p>
+    </div>
+  </div>
+
+  <!-- Service Row 3 -->
+  <div class="row align-items-center">
+    <div class="col-md-6" data-aos="fade-right">
+      <img src="images/OIP.jpeg" alt="Slab Cutting" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <h3>Slab Cutting</h3>
+      <p>Slab cutting is a specialized service for cutting concrete slabs, often used in repairs or installations. We ensure minimal disruption while maintaining structural integrity, making it ideal for renovations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about-section" class="text-center bg-light py-5">
+  <div class="container">
+    <h2>About Us</h2>
+    <p class="lead">
+      With over 10 years of experience, Sana Concrete Cutting provides top-quality services to commercial and residential clients. Our state-of-the-art equipment and expert team ensure every job is completed safely and efficiently.
+    </p>
+    <p>
+      We specialize in concrete cutting, core drilling, and slab cutting for projects of all sizes, serving construction, renovation, and infrastructure industries.
+    </p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+  <h2 class="text-center mb-5">Contact Us</h2>
+  <div class="row">
+    <!-- Contact Details -->
+    <div class="col-md-6 mb-4" data-aos="fade-right">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h3>Address</h3>
+          <p>Kanyambetta, Kalpetta, Kerala, 673122</p>
+          <h3>Phone</h3>
+          <p>+91-9656556796</p>
+          <h3>Email</h3>
+          <p>info@sanacut.com</p>
+          <a href="https://wa.me/919656556796" target="_blank" class="btn btn-success">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div id="services">
-      <section class="service-section">
-        <h2>Our Services</h2>
-        <div class="service">
-          <img
-            src="images/images.jpeg"
-            alt="Concrete Cutting Image"
-            type="image"
-          />
-          <div class="service-details">
-            <h3>Concrete Cutting</h3>
-            <p>
-              Concrete cutting involves precise openings and incisions in
-              concrete structures. We use advanced techniques and equipment for
-              accurate results.
-            </p>
-          </div>
+    <!-- Contact Form -->
+    <div class="col-md-6" data-aos="fade-left">
+      <h3>Send a Message</h3>
+      <form id="contact-form" action="">
+        <div class="mb-3">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
         </div>
-        <div class="service">
-          <div class="service-details">
-            <h3>Core Drilling</h3>
-            <p>
-              Core drilling creates perfectly round holes in concrete surfaces
-              for various applications such as plumbing, electrical, and HVAC
-              installations.
-            </p>
-          </div>
-          <img src="images/core.jpg" alt="Core Drilling Image" type="image" />
+        <div class="mb-3">
+          <input type="email" name="email" class="form-control" placeholder="Your Email" required>
         </div>
-        <!-- Add more services as needed -->
-      </section>
+        <div class="mb-3">
+          <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
     </div>
+  </div>
 
-    <div>
-      <section id="about-section">
-        <h2>About Us</h2>
-        <p class="scrolling-text">
-          Sana Concrete Cut is a leading provider of concrete cutting services
-          with years of experience in the field. Founded on the principles of
-          quality, reliability, and excellence, we have established ourselves as
-          a trusted partner for construction and renovation projects.
-        </p>
-        <p class="scrolling-text">
-          With over 5 years of experience in the industry, our team brings a
-          wealth of knowledge and expertise to every project we undertake. We
-          have successfully completed a wide range of projects, from residential
-          renovations to large-scale commercial developments, earning a
-          reputation for delivering superior results on time and within budget.
-        </p>
-        <p class="scrolling-text">
-          At Sana Concrete Cut, we understand the importance of precision and
-          efficiency in concrete cutting. That's why we invest in
-          state-of-the-art equipment and stay abreast of the latest technologies
-          and techniques in the field. Our skilled technicians are trained to
-          handle even the most complex cutting challenges with precision and
-          care.
-        </p>
-        <p class="scrolling-text">
-          Customer satisfaction is our top priority, and we are committed to
-          providing exceptional service from start to finish. We work closely
-          with our clients to understand their needs and objectives, offering
-          personalized solutions that meet their specific requirements.
-        </p>
-        <p class="scrolling-text">
-          Whether you need concrete cutting for a small renovation project or a
-          large-scale construction endeavor, you can trust Sana Concrete Cut to
-          deliver outstanding results every time. Contact us today to learn more
-          about how we can help you achieve your project goals.
-        </p>
-      </section>
+  <!-- Location -->
+  <div class="row mt-5">
+    <div class="col-12" data-aos="fade-up">
+      <h3 class="text-center mb-4">Location</h3>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20894.758204683866!2d-0.12775824097254857!3d51.50735095820492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8adf85aa4ecdf%3A0xbaa6f5c5c1e7c80!2sLondon!5e0!3m2!1sen!2sin!4v1680200248301!5m2!1sen!2sin" allowfullscreen="" loading="lazy" class="rounded shadow"></iframe>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div id="contact">
-      <section class="contact-details-container">
-        <h2>Contact Us</h2>
-        <div class="card">
-          <div class="contact-details">
-            <div class="contact-info">
-              <div class="info-item">
-                <h3>Address:</h3>
-                <p>kanyambetta,<br />kalpetta, kerala, 673122</p>
-              </div>
+<!-- Phone Button -->
+<a href="tel:+919656556796" class="btn btn-success d-flex align-items-center position-fixed bottom-0 end-0 mb-15 phone-button" style="z-index: 1000; margin-bottom: 90px;margin-right: 26px;">
+  <i class="fas fa-phone-alt w-full h-full "></i> 
+</a>
 
-              <div class="whatsapp-button">
-                <a
-                  href="https://wa.me/919656556796"
-                  target="_blank"
-                  rel="noreferrer"
-                  ><img src="images/whatsapp.png" alt="WhatsApp Icon"
-                /></a>
-              </div>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919656556796" target="_blank" class="btn btn-success whatsapp-button btn-floating position-fixed bottom-0 end-0 m-4 shadow" style="z-index: 1000;">
+  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" class="whatsapp-icon">
+    <path d="M 25 2 C 12.3 2 2 12.3 2 25 C 2 29.1 3.1 32.899219 5 36.199219 L 2 46.699219 C 1.9 46.999219 1.9992187 47.399219 2.1992188 47.699219 C 2.4992187 47.999219 2.8992187 48 3.1992188 48 L 14.199219 45.300781 C 17.399219 47.000781 21.1 48 25 48 C 37.7 48 48 37.7 48 25 C 48 12.3 37.7 2 25 2 z M 25 4 C 36.6 4 46 13.4 46 25 C 46 36.6 36.6 46 25 46 C 21.3 46 17.800781 45.000781 14.800781 43.300781 C 14.600781 43.200781 14.299609 43.099219 14.099609 43.199219 L 4.5 45.599609 L 7 36.400391 C 7.1 36.100391 7.0003906 35.899609 6.9003906 35.599609 C 5.1003906 32.499609 4 28.9 4 25 C 4 13.4 13.4 4 25 4 z M 18.113281 12.988281 C 17.925781 12.975781 17.800781 13 17.800781 13 L 16.599609 13 C 15.999609 13 15.100781 13.2 14.300781 14 C 13.800781 14.5 12 16.3 12 19.5 C 12 22.9 14.299609 25.799609 14.599609 26.099609 C 14.599609 26.099609 15 26.600781 15.5 27.300781 C 16 28.000781 16.699609 28.800781 17.599609 29.800781 C 19.399609 31.700781 21.899609 33.899219 25.099609 35.199219 C 26.499609 35.799219 27.699609 36.2 28.599609 36.5 C 30.199609 37 31.700781 36.900781 32.800781 36.800781 C 33.600781 36.700781 34.500391 36.299219 35.400391 35.699219 C 36.300391 35.099219 37.199609 34.400391 37.599609 33.400391 C 37.899609 32.600391 37.999609 31.900781 38.099609 31.300781 L 38.099609 30.5 C 38.099609 30.2 38.000781 30.200781 37.800781 29.800781 C 37.300781 29.000781 36.799219 29.000781 36.199219 28.800781 C 35.899219 28.600781 34.999219 28.200781 34.199219 27.800781 C 33.299219 27.400781 32.599609 27.000781 32.099609 26.800781 C 31.799609 26.700781 31.400391 26.499609 30.900391 26.599609 C 30.400391 26.699609 29.899609 27 29.599609 27.5 C 29.299609 27.9 28.200781 29.299219 27.800781 29.699219 L 27.699219 29.599609 C 27.299219 29.399609 26.7 29.200781 26 28.800781 C 25.2 28.400781 24.299219 27.800781 23.199219 26.800781 C 21.599219 25.400781 20.499219 23.699609 20.199219 23.099609 C 20.499219 22.699609 20.899609 22.3 21.099609 22 C 21.199609 21.9 21.280859 21.799219 21.349609 21.699219 C 21.418359 21.599219 21.475391 21.500391 21.525391 21.400391 C 21.625391 21.200391 21.700781 21.000781 21.800781 20.800781 C 22.200781 20.100781 22.000781 19.300391 21.800781 18.900391 C 21.800781 18.900391 21.7 18.600781 21.5 18.300781 C 21.4 18.000781 21.2 17.499609 21 17.099609 C 20.6 16.199609 20.2 15.199609 20 14.599609 C 19.7 13.899609 19.300781 13.399219 18.800781 13.199219 C 18.550781 13.049219 18.300781 13.000781 18.113281 12.988281 z M 16.599609 15 L 17.699219 15 L 17.900391 15 C 17.900391 15 17.999609 15.100391 18.099609 15.400391 C 18.299609 16.000391 18.799609 17.000391 19.099609 17.900391 C 19.299609 18.300391 19.499609 18.799609 19.599609 19.099609 C 19.699609 19.399609 19.800391 19.600781 19.900391 19.800781 C 19.900391 19.900781 20 19.900391 20 19.900391 C 19.8 20.300391 19.8 20.399219 19.5 20.699219 C 19.2 21.099219 18.799219 21.499219 18.699219 21.699219 C 18.599219 21.899219 18.299609 22.1 18.099609 22.5 C 17.899609 22.9 18.000781 23.599609 18.300781 24.099609 C 18.700781 24.699609 19.900781 26.700391 21.800781 28.400391 C 23.000781 29.500391 24.1 30.199609 25 30.599609 C 25.9 31.099609 26.600781 31.300391 26.800781 31.400391 C 27.200781 31.600391 27.599609 31.699219 28.099609 31.699219 C 28.599609 31.699219 29.000781 31.3 29.300781 31 C 29.700781 30.6 30.699219 29.399609 31.199219 28.599609 L 31.400391 28.699219 C 31.400391 28.699219 31.699609 28.8 32.099609 29 C 32.499609 29.2 32.900391 29.399609 33.400391 29.599609 C 34.300391 29.999609 35.100391 30.399609 35.400391 30.599609 L 36 30.900391 L 36 31.199219 C 36 31.599219 35.899219 32.200781 35.699219 32.800781 C 35.599219 33.100781 35.000391 33.699609 34.400391 34.099609 C 33.700391 34.499609 32.899609 34.800391 32.599609 34.900391 C 31.699609 35.000391 30.600781 35.099219 29.300781 34.699219 C 28.500781 34.399219 27.4 34.1 26 33.5 C 23.2 32.3 20.899219 30.3 19.199219 28.5 C 18.399219 27.6 17.699219 26.799219 17.199219 26.199219 C 16.699219 25.599219 16.500781 25.2 16.300781 25 C 15.900781 24.6 14 21.999609 14 19.599609 C 14 17.099609 15.200781 16.100391 15.800781 15.400391 C 16.100781 15.000391 16.499609 15 16.599609 15 z"></path>
+  </svg>
+</a>
 
-              <div class="info-item">
-                <h3>Phone:</h3>
-                <p>+91-7736510056</p>
-              </div>
 
-              <div class="info-item">
-                <h3>Email:</h3>
-                <p>info@sanacut.com</p>
-              </div>
-              <br />
-            </div>
-          </div>
-        </div>
-        <div class="container1">
-          <div class="map-container">
-            <h3 class="location">Location</h3>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20894.758204683866!2d-0.12775824097254857!3d51.50735095820492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604e11c1c44c5%3A0x265d50a5035b6f54!2sBuckingham%20Palace!5e0!3m2!1sen!2suk!4v1649479165144!5m2!1sen!2suk"
-              width="450"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="strict-orgine"
-            ></iframe>
-          </div>
-          <div class="contact-form">
-            <h3>Sent Message to us</h3>
-            <form id="contact-form" action="">
-              <input type="text" name="name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="message"
-                placeholder="Your Message"
-                required
-              ></textarea>
-              <input type="submit" value="Submit" />
-              <div class="loading-container">
-                <div class="loading"></div>
-                <div id="loading-text">loading..</div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white py-4">
+    <div class="container">
+      <p class="mb-2">
+        &copy; 2024 Sana Concrete Cutting. All rights reserved.
+      </p>
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item">
+          <a href="#services" class="text-white text-decoration-none">Our Services</a>
+        </li>
+        <li class="list-inline-item">
+          <span>|</span>
+        </li>
+        <li class="list-inline-item">
+          <a href="#about-section" class="text-white text-decoration-none">About Us</a>
+        </li>
+        <li class="list-inline-item">
+          <span>|</span>
+        </li>
+        <li class="list-inline-item">
+          <a href="#contact" class="text-white text-decoration-none">Contact</a>
+        </li>
+      </ul>
     </div>
-    <footer>
-      <p>&copy; 2024 YourWebsiteName. All rights reserved.</p>
-    </footer>
-    <script>
-      $("#contact-form").submit((e) => {
-        e.preventDefault();
-        $.ajax({
-          url: "https://script.google.com/macros/s/AKfycbyrW7GQfkkTn6gW5xLf98BNf5BJ6YiWADO7ozbEr6O35ZTUERiwWmeLku1oWxTqcpSZQw/exec",
-          data: $("#contact-form").serialize(),
-          method: "post",
-          success: function (response) {
-            //alert("Form submitted successfully");
-            //window.location.reload();
-            window.location.href = "thanks.html";
-          },
-          error: function (err) {
-            alert("Something Error");
-          },
-        });
+  </footer>
+  
+
+  <script>
+    // Submit form with animation
+    $("#contact-form").submit((e) => {
+      e.preventDefault();
+
+
+      $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbyrW7GQfkkTn6gW5xLf98BNf5BJ6YiWADO7ozbEr6O35ZTUERiwWmeLku1oWxTqcpSZQw/exec",
+        data: $("#contact-form").serialize(),
+        method: "post",
+        success: function (response) {
+          window.location.href = "thanks.html";
+        },
+        error: function (err) {
+          alert("Something went wrong. Try again.");
+        },
       });
-    </script>
-    <script src="script.js"></script>
-  </body>
+    });
+
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      // Animation occurs only once as you scroll down
+    });
+  </script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Concrete Cutting",
+    "provider": {
+      "@type": "Organization",
+      "name": "sana cut concrete-cutting-wayanad",
+      "url": "https://www.sanacut.in",
+      "logo": "https://www.sanacut.in/logo.jpg",
+      
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9656556796",
+        "contactType": "Customer Service",
+        "areaServed": "IN",
+        "availableLanguage": "English,Malayalam"
+      }
+    },
+    "areaServed": "IN-KL",
+    "description": "Professional concrete cutting services in Wayanad, offering precise and efficient solutions for residential and commercial projects.",
+    "keywords": "concrete cutting, concrete cutting services, Wayanad, concrete contractors, concrete sawing, concrete drilling"
+  }
+  </script>
+  
+</body>
+
 </html>
